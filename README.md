@@ -1,52 +1,27 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tcwhlYLU)
+# ❌ Projet abandonné — GamesOnWeb - Dreamland
 
+**Auteurs :** Adam Loire, Antoine Bondet  
+**Technologie utilisée :** Babylon.js
 
+## 📌 Contexte
 
-# GamesOnWeb - Dreamland
+*Dreamland* était un projet de jeu 3D conçu dans le cadre du cours *GamesOnWeb*. Le concept reposait sur un musée onirique permettant d'accéder à différents "rêves" via des portraits interactifs. Nous avons travaillé sur une base technique fonctionnelle incluant la caméra libre, les déplacements personnalisés et un environnement initial.
 
-**Auteurs :** Adam Loire, Antoine Bondet
+## 🛑 Pourquoi nous arrêtons
 
-GamesOnWeb est un projet de jeu en 3D développé avec Babylon.js. Ce projet est encore en phase de développement initial et constitue une base pour un jeu d'exploration dans un univers onirique. Le jeu se déroule dans un musée où le joueur peut accéder à différents "rêves" en traversant des portraits téléporteurs.
+Nous avons décidé de ne pas poursuivre le développement du projet principalement en raison de **difficultés liées aux graphismes** :
 
-## 🎯 Objectif du Jeu
+- Il était compliqué de créer des objets 3D personnalisés en peu de temps.
+- La gestion interne des éléments visuels était mal résolue.
+- Ces difficultés ont été accentuées par un manque de continuité dans le suivi du projet, notamment pour moi (*Adam*), en raison d’un changement de projet en alternance, rendant le retour sur *Babylon.js* particulièrement difficile.
 
-Dreamland est un jeu d'exploration dans un univers onirique. Pour l'instant, le joueur peut simplement se déplacer et explorer le musée et les premiers rêves accessibles via les portraits téléporteurs. Un objectif fixe sera bientôt intégré pour donner une mission précise au joueur.
+## ✅ Ce qui a été réalisé
 
-## 🌐 Fonctionnalités Actuelles
-- **Lobby - Musée :** Un espace central contenant des portraits téléporteurs.
-- **Gravité Personnalisée :** Gestion de la gravité par raycast pour un contrôle plus fin des collisions et des déplacements.
-- **Caméra :** Caméra libre avec contrôle à la souris et un offset derrière le joueur.
-- **Déplacement Personnalisé :** Système de déplacement basé sur `moveWithCollisions`.
-- **Premier Rêve :** Un environnement de test accessible via un portrait téléporteur.
-- **Objets 3D :** Modèle de personnage (`MC5.glb`) et objets divers comme des sucettes et gâteaux.
+- Un lobby en forme de musée avec caméra libre et gravité personnalisée.
+- Téléportation vers un premier rêve via des portraits interactifs.
+- Intégration d’un personnage 3D et d’objets (sucettes, gâteaux).
+- Une base de code modulaire pour les différents éléments du jeu.
 
-## 🛠️ Structure du Projet
-```
-├── assets/
-│   ├── models/
-│   │   └── MC5.glb
-│   ├── textures/
-│   └── dreams/
-├── src/
-│   ├── camera.js
-│   ├── controls.js
-│   ├── main.js
-│   ├── map.js
-│   └── player.js
-├── index.html
-```
+## 🙏 Remerciements
 
-## 🚀 Fonctionnalités à Venir
-- **Nouveaux Rêves :** Ajout de plusieurs environnements thématiques accessibles depuis le musée.
-- **Interactions Avancées :** Détection de collision avec les objets pour déclencher des événements spécifiques.
-- **Système de Quêtes :** Intégration de missions ou objectifs pour chaque rêve.
-- **Effets Visuels :** Particules, transitions de téléportation, effets sonores.
-- **Optimisation des Assets :** Réduction des tailles de fichiers et amélioration des textures.
-
-## ✅ Prochaines Étapes
-- Créer un système de téléportation plus fluide entre les rêves.
-- Ajouter des plateformes supplémentaires pour tester les déplacements et collisions.
-- Intégrer une interface utilisateur pour le choix des rêves.
-
-## 📌 Remarque
-Ce projet est encore en phase de prototypage. Les fonctionnalités listées sont sujettes à modification au fur et à mesure de l'avancement du développement.
+Merci aux enseignants et camarades pour l’encadrement et les échanges. Malgré l’abandon du projet, cette expérience nous a permis de comprendre le déroulement d’un tel concours, d’expérimenter autour de Babylon.js, et surtout de mieux nous préparer pour l’année prochaine.
